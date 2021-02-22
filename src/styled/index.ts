@@ -53,6 +53,9 @@ export const Value = styled.li`
   &:before {
     color: #000000;
     content: "";
+    position: relative;
+    top: 50%;
+    transform: translate(-40%, -40%);
     width: 7px;
     height: 7px;
     border-radius: 50%;
